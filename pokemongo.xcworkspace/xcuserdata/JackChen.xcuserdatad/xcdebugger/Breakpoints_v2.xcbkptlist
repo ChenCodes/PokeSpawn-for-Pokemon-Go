@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   type = "0"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "pokemongo/ViewController.swift"
+            timestampString = "490525350.44248"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "315"
+            endingLineNumber = "315"
+            landmarkName = "locationManager(_:didChangeAuthorizationStatus:)"
+            landmarkType = "5">
+            <Locations>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "pokemongo.ViewController.locationManager (__ObjC.CLLocationManager, didChangeAuthorizationStatus : __C.CLAuthorizationStatus) -&gt; ()"
+                  moduleName = "pokemongo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/JackChen/Desktop/PokeSpawn1/pokemongo/ViewController.swift"
+                  timestampString = "490525350.639532"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "315"
+                  endingLineNumber = "315"
+                  offsetFromSymbolStart = "520">
+               </Location>
+               <Location
+                  shouldBeEnabled = "No"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "pokemongo.ViewController.locationManager (__ObjC.CLLocationManager, didChangeAuthorizationStatus : __C.CLAuthorizationStatus) -&gt; ()"
+                  moduleName = "pokemongo"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/JackChen/Desktop/PokeSpawn1/pokemongo/ViewController.swift"
+                  timestampString = "490525350.639848"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "315"
+                  endingLineNumber = "315"
+                  offsetFromSymbolStart = "6208">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>

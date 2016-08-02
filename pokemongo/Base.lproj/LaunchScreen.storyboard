@@ -1,0 +1,57 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="10117" systemVersion="15F34" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" launchScreen="YES" useTraitCollections="YES" initialViewController="01J-lp-oVM">
+    <dependencies>
+        <deployment identifier="iOS"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="10085"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
+    </dependencies>
+    <scenes>
+        <!--View Controller-->
+        <scene sceneID="EHf-IW-A2E">
+            <objects>
+                <viewController id="01J-lp-oVM" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="Llm-lL-Icb"/>
+                        <viewControllerLayoutGuide type="bottom" id="xb3-aO-Qok"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="Ze5-6b-2t3">
+                        <rect key="frame" x="0.0" y="0.0" width="375" height="667"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="logoText" translatesAutoresizingMaskIntoConstraints="NO" id="w0i-Mh-KIs">
+                                <rect key="frame" x="54" y="102" width="266" height="95"/>
+                                <constraints>
+                                    <constraint firstAttribute="height" constant="95" id="EcA-g5-Cml"/>
+                                    <constraint firstAttribute="width" constant="266" id="rNt-eC-qcR"/>
+                                </constraints>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="iconLogoNoBackground" translatesAutoresizingMaskIntoConstraints="NO" id="jkB-cy-sl2">
+                                <rect key="frame" x="92" y="226" width="194" height="189"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="194" id="bg4-ll-qda"/>
+                                    <constraint firstAttribute="height" constant="189" id="iC4-eL-j0d"/>
+                                </constraints>
+                            </imageView>
+                        </subviews>
+                        <color key="backgroundColor" red="0.30196078430000001" green="0.39607843139999999" blue="0.69411764710000001" alpha="1" colorSpace="calibratedRGB"/>
+                        <constraints>
+                            <constraint firstItem="w0i-Mh-KIs" firstAttribute="top" secondItem="Llm-lL-Icb" secondAttribute="bottom" constant="82" id="CjV-Mz-0m0"/>
+                            <constraint firstItem="w0i-Mh-KIs" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="38" id="oGh-BY-kP9"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="w0i-Mh-KIs" secondAttribute="trailing" constant="35" id="qhS-Pw-7pt"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="jkB-cy-sl2" secondAttribute="trailing" constant="71" id="r5E-ct-aYk"/>
+                            <constraint firstItem="jkB-cy-sl2" firstAttribute="top" secondItem="w0i-Mh-KIs" secondAttribute="bottom" constant="29" id="uMT-Aq-aKG"/>
+                            <constraint firstItem="jkB-cy-sl2" firstAttribute="leading" secondItem="Ze5-6b-2t3" secondAttribute="leadingMargin" constant="76" id="vYS-2w-JrJ"/>
+                        </constraints>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="retina47"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="iYj-Kq-Ea1" userLabel="First Responder" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="52.5" y="374.5"/>
+        </scene>
+    </scenes>
+    <resources>
+        <image name="iconLogoNoBackground" width="598" height="624"/>
+        <image name="logoText" width="549" height="203"/>
+    </resources>
+</document>

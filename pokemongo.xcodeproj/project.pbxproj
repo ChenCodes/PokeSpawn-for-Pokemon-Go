@@ -1,0 +1,710 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B7516E01D34CB3600FCCE07 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7516DF1D34CB3600FCCE07 /* AppDelegate.swift */; };
+		0B7516E21D34CB3600FCCE07 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7516E11D34CB3600FCCE07 /* ViewController.swift */; };
+		0B7516E51D34CB3600FCCE07 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B7516E31D34CB3600FCCE07 /* Main.storyboard */; };
+		0B7516E71D34CB3600FCCE07 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0B7516E61D34CB3600FCCE07 /* Assets.xcassets */; };
+		0B7516EA1D34CB3600FCCE07 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0B7516E81D34CB3600FCCE07 /* LaunchScreen.storyboard */; };
+		0B7516F51D34CB3600FCCE07 /* pokemongoTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7516F41D34CB3600FCCE07 /* pokemongoTests.swift */; };
+		0B7517001D34CB3600FCCE07 /* pokemongoUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B7516FF1D34CB3600FCCE07 /* pokemongoUITests.swift */; };
+		0B8407D61D3A9E8600108E4B /* ExtraMarkerData.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0B8407D51D3A9E8600108E4B /* ExtraMarkerData.swift */; };
+		0B96DAD41D38C70A00B99DF1 /* GoogleService-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 0B96DAD31D38C70A00B99DF1 /* GoogleService-Info.plist */; };
+		340983D9083E2E38F41C7CD6 /* Pods_pokemongo.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4A17818DF4E66B8FBDEDBD5D /* Pods_pokemongo.framework */; };
+		437685831D376EAE00BAD0DE /* SearchTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 437685821D376EAE00BAD0DE /* SearchTextField.swift */; };
+		43C20AF51D38C11B001DAB92 /* chosenTeam.swift in Sources */ = {isa = PBXBuildFile; fileRef = 43C20AF41D38C11B001DAB92 /* chosenTeam.swift */; };
+		576C5672C46AA6E1AB970782 /* Pods_pokemongoTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 33CA89A9207A2C724A9CF3EA /* Pods_pokemongoTests.framework */; };
+		788882EEEFE37EC430F6C847 /* Pods_pokemongoUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9A72623FF0133628AFC69C20 /* Pods_pokemongoUITests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0B7516F11D34CB3600FCCE07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B7516D41D34CB3600FCCE07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B7516DB1D34CB3600FCCE07;
+			remoteInfo = pokemongo;
+		};
+		0B7516FC1D34CB3600FCCE07 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0B7516D41D34CB3600FCCE07 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0B7516DB1D34CB3600FCCE07;
+			remoteInfo = pokemongo;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0124C718A17C19442FA03573 /* Pods-pokemongo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokemongo.release.xcconfig"; path = "Pods/Target Support Files/Pods-pokemongo/Pods-pokemongo.release.xcconfig"; sourceTree = "<group>"; };
+		0B7516DC1D34CB3600FCCE07 /* pokemongo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pokemongo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B7516DF1D34CB3600FCCE07 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0B7516E11D34CB3600FCCE07 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0B7516E41D34CB3600FCCE07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0B7516E61D34CB3600FCCE07 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0B7516E91D34CB3600FCCE07 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0B7516EB1D34CB3600FCCE07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B7516F01D34CB3600FCCE07 /* pokemongoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pokemongoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B7516F41D34CB3600FCCE07 /* pokemongoTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokemongoTests.swift; sourceTree = "<group>"; };
+		0B7516F61D34CB3600FCCE07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B7516FB1D34CB3600FCCE07 /* pokemongoUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = pokemongoUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		0B7516FF1D34CB3600FCCE07 /* pokemongoUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = pokemongoUITests.swift; sourceTree = "<group>"; };
+		0B7517011D34CB3600FCCE07 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0B8407D51D3A9E8600108E4B /* ExtraMarkerData.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ExtraMarkerData.swift; sourceTree = "<group>"; };
+		0B96DAD31D38C70A00B99DF1 /* GoogleService-Info.plist */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.xml; path = "GoogleService-Info.plist"; sourceTree = "<group>"; };
+		13516621E8AF311074BA0EEC /* Pods-pokemongoUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokemongoUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-pokemongoUITests/Pods-pokemongoUITests.release.xcconfig"; sourceTree = "<group>"; };
+		33CA89A9207A2C724A9CF3EA /* Pods_pokemongoTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pokemongoTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		437685821D376EAE00BAD0DE /* SearchTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SearchTextField.swift; sourceTree = "<group>"; };
+		43C20AF41D38C11B001DAB92 /* chosenTeam.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = chosenTeam.swift; sourceTree = "<group>"; };
+		4A17818DF4E66B8FBDEDBD5D /* Pods_pokemongo.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pokemongo.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		989866DDFDBF8477178C7CDA /* Pods-pokemongo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokemongo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pokemongo/Pods-pokemongo.debug.xcconfig"; sourceTree = "<group>"; };
+		9A72623FF0133628AFC69C20 /* Pods_pokemongoUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_pokemongoUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		A39D7B9703AA4EF6002B7D48 /* Pods-pokemongoUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokemongoUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pokemongoUITests/Pods-pokemongoUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A6B2DB0B3A5F22A19247292D /* Pods-pokemongoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokemongoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-pokemongoTests/Pods-pokemongoTests.release.xcconfig"; sourceTree = "<group>"; };
+		E5AE1F6387B9A2AB883B8D50 /* Pods-pokemongoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-pokemongoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-pokemongoTests/Pods-pokemongoTests.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0B7516D91D34CB3600FCCE07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				340983D9083E2E38F41C7CD6 /* Pods_pokemongo.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B7516ED1D34CB3600FCCE07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				576C5672C46AA6E1AB970782 /* Pods_pokemongoTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B7516F81D34CB3600FCCE07 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				788882EEEFE37EC430F6C847 /* Pods_pokemongoUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0170E4110C5512682BE8F342 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4A17818DF4E66B8FBDEDBD5D /* Pods_pokemongo.framework */,
+				33CA89A9207A2C724A9CF3EA /* Pods_pokemongoTests.framework */,
+				9A72623FF0133628AFC69C20 /* Pods_pokemongoUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		0B7516D31D34CB3600FCCE07 = {
+			isa = PBXGroup;
+			children = (
+				0B7516DE1D34CB3600FCCE07 /* pokemongo */,
+				0B7516F31D34CB3600FCCE07 /* pokemongoTests */,
+				0B7516FE1D34CB3600FCCE07 /* pokemongoUITests */,
+				0B7516DD1D34CB3600FCCE07 /* Products */,
+				ACC033628C7DBB18F6480C53 /* Pods */,
+				0170E4110C5512682BE8F342 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0B7516DD1D34CB3600FCCE07 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0B7516DC1D34CB3600FCCE07 /* pokemongo.app */,
+				0B7516F01D34CB3600FCCE07 /* pokemongoTests.xctest */,
+				0B7516FB1D34CB3600FCCE07 /* pokemongoUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0B7516DE1D34CB3600FCCE07 /* pokemongo */ = {
+			isa = PBXGroup;
+			children = (
+				437685821D376EAE00BAD0DE /* SearchTextField.swift */,
+				0B7516DF1D34CB3600FCCE07 /* AppDelegate.swift */,
+				0B7516E11D34CB3600FCCE07 /* ViewController.swift */,
+				0B8407D51D3A9E8600108E4B /* ExtraMarkerData.swift */,
+				0B96DAD31D38C70A00B99DF1 /* GoogleService-Info.plist */,
+				0B7516E31D34CB3600FCCE07 /* Main.storyboard */,
+				43C20AF41D38C11B001DAB92 /* chosenTeam.swift */,
+				0B7516E61D34CB3600FCCE07 /* Assets.xcassets */,
+				0B7516E81D34CB3600FCCE07 /* LaunchScreen.storyboard */,
+				0B7516EB1D34CB3600FCCE07 /* Info.plist */,
+			);
+			path = pokemongo;
+			sourceTree = "<group>";
+		};
+		0B7516F31D34CB3600FCCE07 /* pokemongoTests */ = {
+			isa = PBXGroup;
+			children = (
+				0B7516F41D34CB3600FCCE07 /* pokemongoTests.swift */,
+				0B7516F61D34CB3600FCCE07 /* Info.plist */,
+			);
+			path = pokemongoTests;
+			sourceTree = "<group>";
+		};
+		0B7516FE1D34CB3600FCCE07 /* pokemongoUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0B7516FF1D34CB3600FCCE07 /* pokemongoUITests.swift */,
+				0B7517011D34CB3600FCCE07 /* Info.plist */,
+			);
+			path = pokemongoUITests;
+			sourceTree = "<group>";
+		};
+		ACC033628C7DBB18F6480C53 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				989866DDFDBF8477178C7CDA /* Pods-pokemongo.debug.xcconfig */,
+				0124C718A17C19442FA03573 /* Pods-pokemongo.release.xcconfig */,
+				E5AE1F6387B9A2AB883B8D50 /* Pods-pokemongoTests.debug.xcconfig */,
+				A6B2DB0B3A5F22A19247292D /* Pods-pokemongoTests.release.xcconfig */,
+				A39D7B9703AA4EF6002B7D48 /* Pods-pokemongoUITests.debug.xcconfig */,
+				13516621E8AF311074BA0EEC /* Pods-pokemongoUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0B7516DB1D34CB3600FCCE07 /* pokemongo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B7517041D34CB3600FCCE07 /* Build configuration list for PBXNativeTarget "pokemongo" */;
+			buildPhases = (
+				288E456075EF0BA7B1554045 /* [CP] Check Pods Manifest.lock */,
+				0B7516D81D34CB3600FCCE07 /* Sources */,
+				0B7516D91D34CB3600FCCE07 /* Frameworks */,
+				0B7516DA1D34CB3600FCCE07 /* Resources */,
+				79BAECB79F3DC36813013A3E /* [CP] Embed Pods Frameworks */,
+				1FE5B514F5071AF00C28F0B4 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = pokemongo;
+			productName = pokemongo;
+			productReference = 0B7516DC1D34CB3600FCCE07 /* pokemongo.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0B7516EF1D34CB3600FCCE07 /* pokemongoTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B7517071D34CB3600FCCE07 /* Build configuration list for PBXNativeTarget "pokemongoTests" */;
+			buildPhases = (
+				D0D87FD6475949486383EB34 /* [CP] Check Pods Manifest.lock */,
+				0B7516EC1D34CB3600FCCE07 /* Sources */,
+				0B7516ED1D34CB3600FCCE07 /* Frameworks */,
+				0B7516EE1D34CB3600FCCE07 /* Resources */,
+				7A87E85107C875BEA69C000E /* [CP] Embed Pods Frameworks */,
+				4AC25CE1F9987BD0B2B186D9 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B7516F21D34CB3600FCCE07 /* PBXTargetDependency */,
+			);
+			name = pokemongoTests;
+			productName = pokemongoTests;
+			productReference = 0B7516F01D34CB3600FCCE07 /* pokemongoTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0B7516FA1D34CB3600FCCE07 /* pokemongoUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0B75170A1D34CB3600FCCE07 /* Build configuration list for PBXNativeTarget "pokemongoUITests" */;
+			buildPhases = (
+				9F564753C5077CF6CE64E001 /* [CP] Check Pods Manifest.lock */,
+				0B7516F71D34CB3600FCCE07 /* Sources */,
+				0B7516F81D34CB3600FCCE07 /* Frameworks */,
+				0B7516F91D34CB3600FCCE07 /* Resources */,
+				9CA7371818306689CE9C6846 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0B7516FD1D34CB3600FCCE07 /* PBXTargetDependency */,
+			);
+			name = pokemongoUITests;
+			productName = pokemongoUITests;
+			productReference = 0B7516FB1D34CB3600FCCE07 /* pokemongoUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0B7516D41D34CB3600FCCE07 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = "Angel Lim";
+				TargetAttributes = {
+					0B7516DB1D34CB3600FCCE07 = {
+						CreatedOnToolsVersion = 7.3.1;
+						DevelopmentTeam = 32QK2563WV;
+					};
+					0B7516EF1D34CB3600FCCE07 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0B7516DB1D34CB3600FCCE07;
+					};
+					0B7516FA1D34CB3600FCCE07 = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = 0B7516DB1D34CB3600FCCE07;
+					};
+				};
+			};
+			buildConfigurationList = 0B7516D71D34CB3600FCCE07 /* Build configuration list for PBXProject "pokemongo" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0B7516D31D34CB3600FCCE07;
+			productRefGroup = 0B7516DD1D34CB3600FCCE07 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0B7516DB1D34CB3600FCCE07 /* pokemongo */,
+				0B7516EF1D34CB3600FCCE07 /* pokemongoTests */,
+				0B7516FA1D34CB3600FCCE07 /* pokemongoUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0B7516DA1D34CB3600FCCE07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B7516EA1D34CB3600FCCE07 /* LaunchScreen.storyboard in Resources */,
+				0B96DAD41D38C70A00B99DF1 /* GoogleService-Info.plist in Resources */,
+				0B7516E71D34CB3600FCCE07 /* Assets.xcassets in Resources */,
+				0B7516E51D34CB3600FCCE07 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B7516EE1D34CB3600FCCE07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B7516F91D34CB3600FCCE07 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1FE5B514F5071AF00C28F0B4 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pokemongo/Pods-pokemongo-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		288E456075EF0BA7B1554045 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		4AC25CE1F9987BD0B2B186D9 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pokemongoTests/Pods-pokemongoTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		79BAECB79F3DC36813013A3E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pokemongo/Pods-pokemongo-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7A87E85107C875BEA69C000E /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pokemongoTests/Pods-pokemongoTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9CA7371818306689CE9C6846 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-pokemongoUITests/Pods-pokemongoUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9F564753C5077CF6CE64E001 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		D0D87FD6475949486383EB34 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [[ $? != 0 ]] ; then\n    cat << EOM\nerror: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\nEOM\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0B7516D81D34CB3600FCCE07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B8407D61D3A9E8600108E4B /* ExtraMarkerData.swift in Sources */,
+				0B7516E21D34CB3600FCCE07 /* ViewController.swift in Sources */,
+				0B7516E01D34CB3600FCCE07 /* AppDelegate.swift in Sources */,
+				43C20AF51D38C11B001DAB92 /* chosenTeam.swift in Sources */,
+				437685831D376EAE00BAD0DE /* SearchTextField.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B7516EC1D34CB3600FCCE07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B7516F51D34CB3600FCCE07 /* pokemongoTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0B7516F71D34CB3600FCCE07 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B7517001D34CB3600FCCE07 /* pokemongoUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0B7516F21D34CB3600FCCE07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B7516DB1D34CB3600FCCE07 /* pokemongo */;
+			targetProxy = 0B7516F11D34CB3600FCCE07 /* PBXContainerItemProxy */;
+		};
+		0B7516FD1D34CB3600FCCE07 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0B7516DB1D34CB3600FCCE07 /* pokemongo */;
+			targetProxy = 0B7516FC1D34CB3600FCCE07 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0B7516E31D34CB3600FCCE07 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B7516E41D34CB3600FCCE07 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0B7516E81D34CB3600FCCE07 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0B7516E91D34CB3600FCCE07 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0B7517021D34CB3600FCCE07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0B7517031D34CB3600FCCE07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0B7517051D34CB3600FCCE07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 989866DDFDBF8477178C7CDA /* Pods-pokemongo.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = pokemongo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aj.pokespawn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Debug;
+		};
+		0B7517061D34CB3600FCCE07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0124C718A17C19442FA03573 /* Pods-pokemongo.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				INFOPLIST_FILE = pokemongo/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.aj.pokespawn;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				PROVISIONING_PROFILE = "";
+			};
+			name = Release;
+		};
+		0B7517081D34CB3600FCCE07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E5AE1F6387B9A2AB883B8D50 /* Pods-pokemongoTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pokemongoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pokemongoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pokemongo.app/pokemongo";
+			};
+			name = Debug;
+		};
+		0B7517091D34CB3600FCCE07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A6B2DB0B3A5F22A19247292D /* Pods-pokemongoTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = pokemongoTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pokemongoTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/pokemongo.app/pokemongo";
+			};
+			name = Release;
+		};
+		0B75170B1D34CB3600FCCE07 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A39D7B9703AA4EF6002B7D48 /* Pods-pokemongoUITests.debug.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = pokemongoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pokemongoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = pokemongo;
+			};
+			name = Debug;
+		};
+		0B75170C1D34CB3600FCCE07 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 13516621E8AF311074BA0EEC /* Pods-pokemongoUITests.release.xcconfig */;
+			buildSettings = {
+				INFOPLIST_FILE = pokemongoUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.pokemongoUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = pokemongo;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0B7516D71D34CB3600FCCE07 /* Build configuration list for PBXProject "pokemongo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B7517021D34CB3600FCCE07 /* Debug */,
+				0B7517031D34CB3600FCCE07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B7517041D34CB3600FCCE07 /* Build configuration list for PBXNativeTarget "pokemongo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B7517051D34CB3600FCCE07 /* Debug */,
+				0B7517061D34CB3600FCCE07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B7517071D34CB3600FCCE07 /* Build configuration list for PBXNativeTarget "pokemongoTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B7517081D34CB3600FCCE07 /* Debug */,
+				0B7517091D34CB3600FCCE07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0B75170A1D34CB3600FCCE07 /* Build configuration list for PBXNativeTarget "pokemongoUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0B75170B1D34CB3600FCCE07 /* Debug */,
+				0B75170C1D34CB3600FCCE07 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0B7516D41D34CB3600FCCE07 /* Project object */;
+}

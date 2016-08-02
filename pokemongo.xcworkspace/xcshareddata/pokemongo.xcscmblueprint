@@ -1,0 +1,44 @@
+{
+  "DVTSourceControlWorkspaceBlueprintPrimaryRemoteRepositoryKey" : "FBCA45B383B499808EE7A24FFF2B7DAE6AD60AC4",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyRepositoryLocationsKey" : {
+
+  },
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyStatesKey" : {
+    "42464533E050FFEC7A7FE7F8F9C3385F016D8524" : 0,
+    "2EE7FCC5F40BC28B4B3A211C71DE9C8087558C44" : 0,
+    "718322AB1EE00A94D4E40B868FE2F52E6B49B5CE" : 0,
+    "FBCA45B383B499808EE7A24FFF2B7DAE6AD60AC4" : 0
+  },
+  "DVTSourceControlWorkspaceBlueprintIdentifierKey" : "E425DF7E-0CD4-4CAD-B905-35B27D8F52BE",
+  "DVTSourceControlWorkspaceBlueprintWorkingCopyPathsKey" : {
+    "42464533E050FFEC7A7FE7F8F9C3385F016D8524" : "..\/AutocompleteField",
+    "2EE7FCC5F40BC28B4B3A211C71DE9C8087558C44" : "pokemongo\/",
+    "718322AB1EE00A94D4E40B868FE2F52E6B49B5CE" : "PokeSpawnFinal\/",
+    "FBCA45B383B499808EE7A24FFF2B7DAE6AD60AC4" : "PokeSpawn1\/"
+  },
+  "DVTSourceControlWorkspaceBlueprintNameKey" : "pokemongo",
+  "DVTSourceControlWorkspaceBlueprintVersion" : 204,
+  "DVTSourceControlWorkspaceBlueprintRelativePathToProjectKey" : "pokemongo.xcworkspace",
+  "DVTSourceControlWorkspaceBlueprintRemoteRepositoriesKey" : [
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:limabeans\/poke.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "2EE7FCC5F40BC28B4B3A211C71DE9C8087558C44"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "github.com:filipstefansson\/AutocompleteField.git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "42464533E050FFEC7A7FE7F8F9C3385F016D8524"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/limabeans\/pokespawn",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "718322AB1EE00A94D4E40B868FE2F52E6B49B5CE"
+    },
+    {
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryURLKey" : "https:\/\/github.com\/limabeans\/pokespawn-norename",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositorySystemKey" : "com.apple.dt.Xcode.sourcecontrol.Git",
+      "DVTSourceControlWorkspaceBlueprintRemoteRepositoryIdentifierKey" : "FBCA45B383B499808EE7A24FFF2B7DAE6AD60AC4"
+    }
+  ]
+}
