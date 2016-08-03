@@ -35,10 +35,7 @@ Pokemon Go was launched pretty recently so we decided that it would be cool if w
 1. When was this app first developed? 
 We started developing this app on Tuesday, July 12th and finished our MVP on Thursday evening. 
 
-2. Why is this app not in the Appstore?
-There are two main reasons. The first reason is that since another app, Poke Radar was able to hit the Appstore a couple days before we could, they eventually got a lot of users and so we couldn't make it into the Appstore due to our app being labeled a "copycat" app even though we had plenty of features that Poke Radar didn't have. The other reason is that all of our assets were copied from online; we didn't have the time to create 140+ assets that looked like Pokemon but didn't look like Pokemon at the same time. Basically issue 4.1 - Copycat on the Apple Guidelines for submitting apps. 
-
-3. Will you guys continue working on this app?
+2. Will you guys continue working on this app?
 Possibly. Most likely not, as for now the code that we have in this project is open source for you all to enjoy and modify and hopefully learn more about working with various APIs including GoogleMaps API.
 
 
