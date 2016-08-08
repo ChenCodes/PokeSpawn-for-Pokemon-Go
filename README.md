@@ -13,7 +13,7 @@ You can also search in the searchbar for specific Pokemon. By tapping on the sea
 **Upvote system**: Users can verify the accuracy of a given pokemon marker. If a Pikachu marker was dropped at a certain location and another user walked by that location and managed to catch a Pikachu, they would go on PokeSpawn and press on the marker to upvote the marker. Users cannot upvote markers that they put down themselves, and if they press on a downvote for a marker that they dropped, the marker will be removed from the map. 
 
 
-![Upvote](https://github.com/ChenCodes/pokespawn-norename/blob/master/upvote.png "Logo Title Text 1")
+![Upvote](https://github.com/ChenCodes/PokeSpawn-for-Pokemon-Go/blob/master/upvote.png "Logo Title Text 1")
 
 
 **Filtering system**: Since Pokemon do not stay in any one area for a very long period of time, it would be unnecessary to keep around "stale markers". Thus, there is a filtering system that allows the user to press a button to find the pokemon markers that were dropped in the last 30 minutes as these will be the most accurate representations of the current location of certain Pokemon. 
