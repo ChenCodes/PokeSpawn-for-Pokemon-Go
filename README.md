@@ -38,6 +38,11 @@ We started developing this app on Tuesday, July 12th and finished our MVP on Thu
 2. Will you guys continue working on this app?
 Possibly. Most likely not, as for now the code that we have in this project is open source for you all to enjoy and modify and hopefully learn more about working with various APIs including GoogleMaps API.
 
+![Upvote] (https://github.com/ChenCodes/PokeSpawn-for-Pokemon-Go/blob/master/13932047_1101807456568920_302628050_o.jpg)
+
+
+
+
 
 
 
